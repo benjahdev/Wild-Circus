@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sigmar+One">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mystery+Quest">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="https://use.fontawesome.com/ad145649da.js" type="text/javascript"></script>
+	<title>Wild Circus</title>
+</head>
+<body>
+	<!-- header -->
+	<header id="home" class="page flex-center">
+		<div class="header subsection noselect">
+			<div id="title" class="bg-black">
+				<p>Welcome to the official website of</p>
+				<h1><!--
+					--><span class="title-word"><!--
+						--><span class="anim-title transition-all">W</span><!--
+						--><span class="anim-title transition-all">i</span><!--
+						--><span class="anim-title transition-all">l</span><!--
+						--><span class="anim-title transition-all">d</span><!--
+					 --></span><!--
+					 --><span class="title-word"><!--
+						--><span class="title-space">&nbsp;</span><!--
+						--><span class="anim-title transition-all">C</span><!--
+						--><span class="anim-title transition-all">i</span><!--
+						--><span class="anim-title transition-all">r</span><!--
+						--><span class="anim-title transition-all">c</span><!--
+						--><span class="anim-title transition-all">u</span><!--
+						--><span class="anim-title transition-all">s</span><!--
+					--></span><!--
+				--></h1>
+			</div>
+			<nav id="topnav" class="noselect">
+				<ul>
+					<li><a class="nav-link radius6 transition-all" href="#home">Home</a></li>
+					<li><a class="nav-link radius6 transition-all" href="#preview">Preview</a></li>
+					<li><a class="nav-link radius6 transition-all" href="#tickets">Get Tickets</a></li>
+					<li><a class="nav-link radius6 transition-all" href="#tour2017">Tour 2017</a></li>
+					<li><a class="nav-link radius6 transition-all" href="#infos">About Us</a></li>
+				</ul>
+				<div class="nav-dropdown none">
+					<div class="nav-dropdown-button flex-center">
+						<div class="radius6"></div>
+						<div class="radius6"></div>
+						<div class="radius6"></div>
+					</div>
+					<div id="topnav_dropdown_content" class="nav-dropdown-content none">
+						<a class="nav-link transition-all" href="#home">Home</a>
+						<a class="nav-link transition-all" href="#preview">Preview</a>
+						<a class="nav-link transition-all" href="#tickets">Get Tickets</a>
+						<a class="nav-link transition-all" href="#tour2017">Tour 2017</a>
+						<a class="nav-link transition-all" href="#infos">About Us</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- container -->
+	<div class="container">
+		<!-- Section 1 -->
+		<div id="preview" class="page flex-center">
+			<div id="preview_content" class="slide-show page-content bg-black radius6">
+				<div class="slide-content slide-summary animate-opacity">
+					<h2 class="text-center">Come One, Come All!</h2>
+					<p class="text-center">Here is a section about some of our shows. You can click on the buttons at the top right and left of this box to change the page.</p>
+					<div class="slide-preview">
+						<div class="slide-preview-img radius6" onclick="plusDivs(1)">
+							<img src="images/slide-lions-preview.jpg" alt="Image preview - Lions &amp; Tigers">
+							<h3 class="bg-black">Lions &amp; Tigers</h3>
+						</div>
+						<div class="slide-preview-img radius6" onclick="plusDivs(2)">
+							<img src="images/slide-elephants-preview.jpg" alt="Image preview - Elephants">
+							<h3 class="bg-black">Elephants</h3>
+						</div>
+						<div class="slide-preview-img radius6" onclick="plusDivs(3)">
+							<img src="images/slide-clowns-preview.jpg" alt="Image preview - Clowns">
+							<h3 class="bg-black">Clowns</h3>
+						</div>
+						<div class="slide-preview-img radius6" onclick="plusDivs(4)">
+							<img src="images/slide-horses-preview.jpg" alt="Image preview - Horses">
+							<h3 class="bg-black">Horses</h3>
+						</div>
+						<div class="slide-preview-img radius6" onclick="plusDivs(5)">
+							<img src="images/slide-dance-preview.jpg" alt="Image preview - Dance">
+							<h3 class="bg-black">Acrobatic Dance</h3>
+						</div>
+						<div class="slide-preview-img radius6" onclick="plusDivs(6)">
+							<img src="images/slide-bar-preview.jpg" alt="Image preview - Bar">
+							<h3 class="bg-black">The Circus Bar</h3>
+						</div>
+					</div>
+				</div>
+				<figure class="slide-content animate-opacity">
+					<figcaption>
+						<h2>The Lions And Tigers</h2>
+						<p><strong>The fierce lions and tigers of Paulo Corleone</strong> are known to be the most active in the world of the spectacle. He pupils them and lives with them in his great natural park, for more than 25 years now. Don't be afraid when the cage will be open...</p>
+					</figcaption>
+					<img src="images/slide-lions.jpg" alt="Image Lions &amp; Tigers">
+				</figure>
+				<figure class="slide-content animate-opacity">
+					<figcaption>
+						<h2>The Elephants</h2>
+						<p>The big elephants of the Numbadil troop are as impressive as they will offer you kindness... You will have the opportunity to meet Djaina or Sona before the show starts and if they are really nice, they will let you ride on their backs!</p>
+					</figcaption>
+					<img src="images/slide-elephants.jpg" alt="Image Elephants">
+				</figure>
+				<figure class="slide-content animate-opacity">
+					<figcaption>
+						<h2>The Clowns</h2>
+						<p>We love them, they bring us joy and good humor, clowns are of course unavoidable in the circus world... But Josepe and Pedro will make you bounce your heart with their spectacle rich in emotion!</p>
+					</figcaption>
+					<img src="images/slide-clowns.jpg" alt="Image Clowns">
+				</figure>
+				<figure class="slide-content animate-opacity">
+					<figcaption>
+						<h2>The Horses</h2>
+						<p>The adventure that man lives with the horse lasts for millennia. Yet Joan Valentina's adventure has been going on for only 10 years, but we can say that he can whisper to the ear of the horses.</p>
+					</figcaption>
+					<img src="images/slide-horses.jpg" alt="Image Horses">
+				</figure>
+				<figure class="slide-content animate-opacity">
+					<figcaption>
+						<h2>The Acrobatic Dance</h2>
+						<p>A few shows will be offered while a set is set up on the circus track sometimes, and this is what the pretty Johana Kauskova does while installing a dangerous decor underneath her. His spectacle at once poetic and shivering, will keep you in your seat.</p>
+					</figcaption>
+					<img src="images/slide-dance.jpg" alt="Image Dance">
+				</figure>
+				<figure class="slide-content animate-opacity">
+					<figcaption>
+						<h2>The Circus Bar</h2>
+						<p>If you can't wait during the intervals of the show, you can access the prestigious circus bar, where you can find quality drinks from everywhere around the world. And of course we have everything you need for your children: cotton candy, popcorns, pancakes, ice creams, sweets... And if you wish, you can eat in the evening between 7 pm and 9 pm (under reservation at the entrance to the circus).</p>
+					</figcaption>
+					<img src="images/slide-bar.jpg" alt="Image Bar">
+				</figure>
+				<div class="slide-content animate-opacity">
+					<h2 class="text-center">Social Networks</h2>
+					<div class="social">
+						<div>
+							<a class="social-links facebook-logo radius6 transition-all" href="https://www.facebook.com/" title="Official Facebook page" target="_blank"></a>
+						</div>
+						<div>
+							<a class="social-links twitter-logo radius6 transition-all" href="https://www.twitter.com/" title="Official Twitter account" target="_blank"></a>
+						</div>
+						<div>
+							<a class="social-links youtube-logo radius6 transition-all" href="https://www.youtube.com/" title="Official Youtube account" target="_blank"></a>
+						</div>
+					</div>
+					<p class="text-center">Find more contents on our official social networks pages</p>
+				</div>
+				<button class="slide-button noselect pos-left" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="slide-button noselect pos-right" onclick="plusDivs(1)">&#10095;</button>
+			</div>
+		</div>
+		<!-- Section 2 -->
+		<div id="tickets" class="page flex-center">
+			<article id="tickets_content" class="page-content radius6 bg-black">
+				<header class="text-center">
+					<h2>Tickets &amp; Shops</h2>
+				</header>
+				<div>
+					<p>To book your tickets, you must use one of the partner online stores listed below. You can also find some of the items that were offered to you at the circus...</p>
+					<div class="logo-shops text-center">
+						<a href="https://store.wildcircus.com/" target="_blank"><img src="images/shop-logo.png" alt="Wild Circus's ticket logo" title="Wild Circus's Official webstore" width="150"></a>
+						<a href="https://www.amazon.com/" target="_blank"><img src="images/amazon-logo.png" alt="Amazon logo" title="Wild Circus's Amazon webstore" width="100"></a>
+					</div>
+					<p>The support for the refunding is done directly with the merchant sites and we consider ourselves not responsible if you use a website other than those proposed.<br>Contact us at <a href="mailto:infos@wildcircus.com?subject=Hello" title="Contact us for any informations">infos@wildcircus.com</a> for any informations.</p>
+				</div>
+			</article>
+		</div>
+		<!-- Section 3 -->
+		<div id="tour2017" class="page flex-center">
+			<article id="tour2017_content" class="page-content bg-black radius6">
+				<header class="noselect">
+					<h2>Tour 2017</h2>
+					<p>Every weekend (Friday to Sunday), come join us for an unforgettable show for your children and you. Here is the list of the countries and its periods where the show is planned:</p>
+				</header>
+				<div>
+					<ul>
+						<li class="bg-black radius6">
+							<h3>April &amp; May</h3>
+							<p>London (England)</p>
+						</li>
+						<li class="bg-black radius6">
+							<h3>June</h3>
+							<p>Munich (Germany)</p>
+						</li>
+						<li class="bg-black radius6">
+							<h3>July</h3>
+							<p>Paris (France)</p>
+						</li>
+						<li class="bg-black radius6">
+							<h3>August</h3>
+							<p>Barcelona (Spain)</p>
+						</li>
+						<li class="bg-black radius6">
+							<h3>September</h3>
+							<p>Tokyo (Japan)</p>
+						</li>
+						<li class="bg-black radius6">
+							<h3>October &amp; December</h3>
+							<p>New York (United States)</p>
+						</li>
+					</ul>
+					<div class="logo-shops bg-black">
+						<a href="https://store.wildcircus.com/" target="_blank"><img src="images/shop-logo.png" alt="Wild Circus's ticket logo" title="Wild Circus's Official webstore" width="150"></a>
+					</div>
+				</div>
+			</article>
+		</div>
+		<!-- Section 4 -->
+		<div id="infos" class="page flex-center">
+			<article id="infos_content" class="page-content bg-black radius6">
+				<header class="text-center">
+					<h2>About Us</h2>
+				</header>
+				<div>
+					<p>Wild Circus has been a show business since 1876 and we have kept its authenticity while evolving towards our time over the years.</p>
+					<p>Keeping its traditional part, we practice the art of the circus for the love that the spectators will want to offer us. It is on these occasions that you will have the opportunity to see the show very closely. If you are lucky, many shows will offer you the possibility to touch the animals...<br>Wild Circus has evolved over time to offer you a spectacle of qualities, which is why we offer you the best artists of our world. An incredible amount of surprises and magic await you, so do not hesitate, come and have a seat in the big top!</p>
+					<p>Also we offer you such a huge show that we need a very large family to run the circus. A whole lot of jobs are essential to our success, such as animal care specialists, specialized veterinarians, and also technical jobs, such as sound managers, luminaries, or cleaners... Finally, if you feel you ready to go around the world for one year or more, don't hesitate to contact us by e-mail at <a href="mailto:contact-job@wildcircus.com?subject=Job%20application" title="Contact us for a job application">contact-job@wildcircus.com</a>, and we will get back to you as soon as possible. For any other informations, mail us directly at <a href="mailto:infos@wildcircus.com?subject=Hello" title="Contact us for any informations">infos@wildcircus.com</a></p>
+				</div>
+			</article>
+		</div>
+	<!-- End of .container -->
+	</div>
+	<footer class="footer bg-black text-center">
+		<div class="social">
+			<div>
+				<a class="social-links facebook-logo radius6-bottom transition-all" href="https://www.facebook.com/" title="Official Facebook page" target="_blank"></a>
+			</div>
+			<div>
+				<a class="social-links twitter-logo radius6-bottom transition-all" href="https://www.twitter.com/" title="Official Twitter account" target="_blank"></a>
+			</div>
+			<div>
+				<a class="social-links youtube-logo radius6-bottom transition-all" href="https://www.youtube.com/" title="Official Youtube account" target="_blank"></a>
+			</div>
+		</div>
+		<div id="credits">
+			<p>Website created for the <a href="https://www.wildcodeschool.com/" title="Wild Code School's website" target="_blank">Wild Code School</a> by <a href="http://www.robozzle.com/user.aspx?name=Benjahdev" title="Robopuzzle Benjamin's profile" target="_blank">Benjamin Hervé</a> - 2017 - <a href="https://creativecommons.org/licenses/by/3.0/" title="License Creative Commons (BY)" target= "_blank">Creative Commons</a> <a href="https://creativecommons.org/licenses/by/3.0/" title="License Creative Commons (BY)" target="_blank"><img src="images/by.png" alt=" (BY)" width="80" style="display: inline-block; vertical-align: middle; vertical-align: sub;" title="License Creative Commons (BY)"></a></p>
+		</div>
+	</footer>
+	<script>
+	/* Title animation variales */
+	var isTitleAnim = false;
+	var colorsArray = [
+		"blue",
+		"yellow",
+		"green",
+		"orange",
+		"red",
+		"purple",
+		"cyan"
+	];
+	var animsArray = [
+		"anim-swing",
+		"trans-rotate-left-35",
+		"trans-rotate-right-35",
+		"trans-rotate-left-135",
+		"trans-rotate-right-135",
+		"trans-rotate-360",
+		"trans-grow",
+		"trans-shrink"
+	];
+	/* Section animation, nav bar positioning variables */
+	// id, transitional height, isFromLeft, finall height
+	var sectionConfig = [
+		["home", "100vh", false, "100vh"],
+		["preview", "100%", true, "100%"],
+		["tickets", "100%", false, "100%"],
+		["tour2017", "100%", true, "100%"],
+		["infos", "200vh", false, "100%"]
+	];
+	var isHidden = [ false, false, false, false, false];
+	var calledAtHome = true;
+	var lastSelected = -1;
+
+	/* SlideShow (#preview section) */
+	var slideIndex = 1;
+	showDivs(slideIndex);
+	var slideShowInterval = setInterval(function () {
+		showDivs(slideIndex += 1);
+	}, 5000);
+
+	function plusDivs(n) {
+		clearInterval(slideShowInterval);
+		showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+		var i;
+		var x = document.getElementsByClassName("slide-content");
+		if (n > x.length) { slideIndex = 1 }
+		if (n < 1) { slideIndex = x.length }
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		x[slideIndex-1].style.display = "block";
+	}
+
+	/* Generate an object to configure .animate() JQuery function */
+	function getAnims(flag, id, max, isleft) {
+		var ret = {};
+		var val = "-100%";
+		if (flag == 1) { val = "0"; }
+		else if (flag == 2) {
+			val = "15%";
+			flag = 0.8;
+		}
+		if (id == 0) {
+			ret = { opacity: flag, top: val };
+		} else if (id == max - 1) {
+			if (val == "15%") { val = "8%" };
+			ret = { opacity: flag, bottom: val };
+		} else {
+			if (isleft) {
+				ret = { opacity: flag, left: val };
+			} else {
+				ret = { opacity: flag, right: val };
+			}
+		}
+		return ret;
+	}
+
+	/* Animate the section to display or add it */
+	function animateSection(flag, i, id) {
+		var times = [650, 300];
+		var parentid = $('#' + id);
+		var item = $('#' + id + '_content');
+		var dofail = false;
+		var firstflag = flag;
+
+		if (flag == 0) {
+			parentid.css('height', parentid.outerHeight(true));
+		}
+
+		if (flag == 1 || random(2)) {
+			dofail = true;
+			firstflag = 2;
+			if (sectionConfig[i][1] != "none") {
+				$('#' + id).css('height', sectionConfig[i][1]);
+			}
+		}
+
+		item.stop();
+
+		// Animate the section
+		item.animate(getAnims(firstflag, i, sectionConfig.length, sectionConfig[i][2]), times[0], (function (f, z, p, b, t) {
+			return function() {
+				if (!b && f == 1) {
+					$('#' + p).css('height', sectionConfig[z][3]);
+					return;
+				}
+				if (b) {
+					$(this).animate(getAnims(f, z, sectionConfig.length, sectionConfig[z][2]), t, function() {
+						if (f == 1) {
+							$('#' + p).css('height', sectionConfig[z][3]);
+						}
+					});
+				}
+			}
+		})(flag, i, id, dofail, times[1]));
+
+		if (flag == 1) {
+			isHidden[i] = false;
+		}
+		else {
+			isHidden[i] = true;
+		}
+	}
+
+	/* Detect if we need to display or hide a section */
+	function navUpdateAnimation(flag) {
+		var pos = $(window).scrollTop() + ($(window).height() / (5 / 2));
+		var selected = -1;
+		for (var i = sectionConfig.length - 1; i >= 0; i--) {
+			var id = sectionConfig[i][0];
+			var navLink = $('a.nav-link[href="#' + id + '"]');
+			var sectionTop = $('#' + id).offset().top;
+			if (pos > sectionTop) {
+				if (selected < 0) {
+					if (flag == 1) { // When the user resize
+						// Scroll to the current section
+						$('html, body').stop();
+						$('html, body').animate( { scrollTop: sectionTop }, 750);
+						return (selected == -2);
+					}
+					selected = i;
+					break;
+				}
+			}
+		}
+
+		if (selected != lastSelected) {
+			for (var i = 0; i < sectionConfig.length; i++) {
+				var id = sectionConfig[i][0];
+				var navLink = $('a.nav-link[href="#' + id + '"]');
+				if (selected == i) {
+					if (isHidden[i] || flag == 0) {
+						// Change the css to active the menu
+						navLink.addClass('nav-link-active');
+						// Display a section
+						animateSection(1, i, id);
+
+						// Start automatic sliders rotation
+						if (selected == 1) {
+							slideShowInterval = setInterval(function () {
+								showDivs(slideIndex += 1);
+							}, 5000);
+						} else {
+							clearInterval(slideShowInterval);
+						}
+					}
+
+					// Add addresse to the url bar of the navigator
+					window.location.hash = '/index.html#' + sectionConfig[i][0];
+
+				} else {
+					if (isHidden[i] == false) {
+						// Un-Highlight the menu
+						navLink.removeClass('nav-link-active');
+						// Hide a section
+						animateSection(0, i, id);
+					}
+				}
+			}
+
+			lastSelected = selected;
+		}
+		return (selected == 0);
+	}
+
+	function navUpdate(flag) {
+		var win = $(window);
+		var scrollTop = win.scrollTop();
+
+		// Check if the menu dropdown is totally visible
+		var navMaxTopPosition = $('#topnav_dropdown_content').outerHeight(true);
+		if (navMaxTopPosition <= scrollTop) {
+			$('#topnav_dropdown_content').addClass('nav-dropdown-content-fixed');
+		} else {
+			$('#topnav_dropdown_content').removeClass('nav-dropdown-content-fixed');
+		}
+
+		// Check if the menu require to be fixed on top of the window or
+		// at the bottom of the header
+		var navPosition = Math.round($('#topnav').offset().top);
+		var titleHeight = Math.round($('#title').offset().top)
+		titleHeight += $('#title').height();
+		if (scrollTop < titleHeight) {
+			if ($('#topnav').hasClass('nav-fixed')) {
+				$('#topnav').removeClass('nav-fixed');
+				$('#topnav').addClass('nav-relative');
+			}
+			if (flag == 0) {
+				var fullHeight = titleHeight + Math.round($('#topnav').outerHeight(true));
+				if (win.height() < fullHeight) {
+					$('#topnav').removeClass('nav-fixed');
+					$('#topnav').addClass('nav-relative');
+				}
+			}
+		}
+		// Glue top the nav bar on top of the page
+		if (scrollTop > navPosition) {
+			$('#topnav').removeClass('nav-relative');
+			$('#topnav').addClass('nav-fixed');
+		}
+
+		// Start header animation when the scroll become static again
+		if (navUpdateAnimation(flag)) {
+			if (!calledAtHome) {
+				setTimeout("animateHeader();", 1500);
+				calledAtHome = true;
+			}
+		} else if (calledAtHome) {
+			calledAtHome = false;
+		}
+	}
+
+	function animateHeader() {
+		if (isTitleAnim) { return; }
+		$('span.anim-title').each(function (index, value) {
+			isTitleAnim = true;
+			var color = colorsArray[random(7)];
+			var anim = animsArray[random(8)];
+			$(this).addClass(anim)
+			.css('color', color)
+			.delay(400)
+			.queue(function (next) {
+				$(this).css('color', 'white');
+				for (var i = 0; i < animsArray.length; i++) {
+					$(this).removeClass(animsArray[i]);
+				}
+				isTitleAnim = false;
+				next();
+			});
+		});
+	}
+
+	function random(i) {
+		return Math.floor(Math.random() * i);
+	}
+
+	$(document).ready(function() {
+		$(window).load(function() {
+			setTimeout("navUpdate(0);", 100);
+			setTimeout("animateHeader();", 2000);
+		}).bind('scroll', function() {
+			navUpdate(2);
+		}).resize(function() {
+			navUpdate(1);
+		});
+
+		/* Animation of the scroll to a page's section */
+		$('.nav-link').on('click', function() {
+			var page = $(this).attr('href');
+			$('html, body').stop();
+			$('html, body').animate( { scrollTop: $(page).offset().top }, 750);
+			return false;
+		});
+
+		/* Animations for the header's title */
+		$('#title').on('click', animateHeader);
+
+		$('span.anim-title').each(function (index, value) {
+			$(this).on("mouseenter", function() {
+				var color = colorsArray[random(7)];
+				var anim = animsArray[random(8)];
+				$(this).addClass(anim)
+				.css('color', color);
+			})
+			.on("mouseleave", function() {
+				$(this).css('color', 'white');
+				for (var i = 0; i < animsArray.length; i++) {
+					$(this).removeClass(animsArray[i]);
+				}
+			});
+		});
+	});
+
+	navUpdate(0);
+	</script>
+</body>
+</html>
