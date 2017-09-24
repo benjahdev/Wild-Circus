@@ -1,7 +1,7 @@
 # Wild Circus 
 ___ 
  
-[**Wild Circus**](https://jsfiddle.net/Benjah8/ubhj8f0o/embed/result/) est un projet organisé par la [**Wild Code School**](https://wildcodeschool.fr) pour de la sélection des candidats lors de l'inscription. 
+[**Wild Circus**](https://jsfiddle.net/Benjah8/ubhj8f0o/) est un projet organisé par la [**Wild Code School**](https://wildcodeschool.fr) pour de la sélection des candidats lors de l'inscription. 
  
 Le fiddle envoyé sur _Odyssey_ -> [https://jsfiddle.net/Benjah8/ubhj8f0o/](https://jsfiddle.net/Benjah8/ubhj8f0o/) 
  
